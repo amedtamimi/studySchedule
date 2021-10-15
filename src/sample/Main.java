@@ -24,15 +24,15 @@ import java.util.List;
 import javafx.scene.control.TableView;
 
 public class Main extends Application {
-    Image image = new Image("file:///project image\\kxUyuPUh.jpg");
-    Image image1 = new Image("file:///project image\\icons8-user-male-90.png");
-    Image bakeGround2=new Image("file:///project image\\page2.jpg");
-    Image userPhoto = new Image("file:///project image\\icons8-male-user-48.png");
-    Image insertT = new Image("file:///project image\\icons8-insert-table-96.png");
-    Image deleteT = new Image("file:///project image\\icons8-delete-table-96.png");
-    Image updateT = new Image("file:///project image\\icons8-update-96.png");
-    Image viewT = new Image("file:///project image\\icons8-view-96.png");
-    Image backB =  new Image("file:///project image\\icons8-back-48.png");
+    Image image = new Image("file:///C:\\Users\\user0000\\Desktop\\Git-project\\ScheduleEdetor\\src\\projectImage\\kxUyuPUh.jpg");
+    Image image1 = new Image("file:///C:\\Users\\user0000\\Desktop\\Git-project\\ScheduleEdetor\\src\\projectImage\\icons8-user-male-90.png");
+    Image bakeGround2=new Image("file:///C:\\Users\\user0000\\Desktop\\Git-project\\ScheduleEdetor\\src\\projectImage\\page2.jpg");
+    Image userPhoto = new Image("file:///C:\\Users\\user0000\\Desktop\\Git-project\\ScheduleEdetor\\src\\projectImage\\icons8-male-user-48.png");
+    Image insertT = new Image("file:///C:\\Users\\user0000\\Desktop\\Git-project\\ScheduleEdetor\\src\\projectImage\\icons8-insert-table-96.png");
+    Image deleteT = new Image("file:///C:\\Users\\user0000\\Desktop\\Git-project\\ScheduleEdetor\\src\\projectImage\\icons8-delete-table-96.png");
+    Image updateT = new Image("file:///C:\\Users\\user0000\\Desktop\\Git-project\\ScheduleEdetor\\src\\projectImage\\icons8-update-96.png");
+    Image viewT = new Image("file:///C:\\Users\\user0000\\Desktop\\Git-project\\ScheduleEdetor\\src\\projectImage\\icons8-view-96.png");
+    Image backB =  new Image("file:///C:\\Users\\user0000\\Desktop\\Git-project\\ScheduleEdetor\\src\\projectImage\\icons8-back-48.png");
 
     private final TableView <Schedule> table = new TableView<>();
     private final ObservableList<Schedule> dataList =
@@ -46,7 +46,7 @@ public class Main extends Application {
         Class.forName("oracle.jdbc.driver.OracleDriver");
         String dbURL2 = "jdbc:oracle:thin:@localhost:1521/XE";
         String username = "ameedtamimi";
-        String password = "2323";
+        String password = "1212";
         Connection con = DriverManager.getConnection(dbURL2, username, password);
         Statement stmt = con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
 
